@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">BattleFit</title>
+  <desc id="desc">Exercise challenge social network project banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#221447"/><stop offset=".55" stop-color="#5a27a8"/><stop offset="1" stop-color="#ec476f"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#160b2d" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="90" r="180" fill="#ffffff" opacity=".06"/><circle cx="850" cy="350" r="210" fill="#ffcb6b" opacity=".08"/>
+  <g transform="translate(70 62)" font-family="Segoe UI, Arial, sans-serif">
+    <text x="0" y="60" fill="#ffffff" font-size="62" font-weight="800">BattleFit</text>
+    <text x="2" y="108" fill="#eadffd" font-size="24">운동 인증을 경쟁과 응원으로 연결하는 챌린지 SNS</text>
+    <rect x="0" y="147" width="410" height="48" rx="24" fill="#ffffff" opacity=".14"/>
+    <text x="26" y="179" fill="#ffffff" font-size="20" font-weight="700">REACT NATIVE · EXPRESS · MYSQL</text>
+  </g>
+  <g transform="translate(730 54)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <rect x="0" y="0" width="350" height="250" rx="32" fill="#ffffff" opacity=".13" stroke-width="2"/>
+    <circle cx="66" cy="58" r="22" fill="#ffcb6b" stroke="none"/>
+    <path d="M105 48h150M105 69h98" stroke-width="10" opacity=".9"/>
+    <rect x="46" y="102" width="258" height="82" rx="20" fill="#21123f" opacity=".65" stroke-width="2"/>
+    <path d="M95 142h160" stroke-width="14"/><path d="M95 126v32M255 126v32" stroke-width="18"/>
+    <circle cx="70" cy="218" r="15" fill="#ff6e8b" stroke="none"/>
+    <path d="M63 214c-9-11-25 3 7 25 32-22 16-36 7-25-4-6-10-6-14 0z" fill="#fff" stroke="none" transform="translate(-1 -9) scale(.55)"/>
+    <path d="M112 218h62M216 218h66" stroke-width="8" opacity=".85"/>
+  </g>
+</svg>
