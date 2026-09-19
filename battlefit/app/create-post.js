@@ -14,7 +14,7 @@ import { useState } from "react";
 import { useRouter } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_URL = "http://192.168.45.86:3000"; // ⚠️ 너의 IP로 교체
+const API_URL = process.env.EXPO_PUBLIC_API_URL || "http://localhost:3000";
 
 const EXERCISE_TYPES = ["헬스", "크로스핏", "런닝", "축구", "필라테스", "기타"];
 const DURATIONS = ["15분", "30분", "1시간", "2시간", "2시간 초과"];
@@ -226,4 +226,3 @@ const styles = StyleSheet.create({
     },
     postText: { color: "white", fontWeight: "bold", fontSize: 16 },
 });
-

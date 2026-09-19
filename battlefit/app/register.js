@@ -3,7 +3,7 @@ import { useState } from "react";
 import * as ImagePicker from "expo-image-picker";
 import { useRouter } from "expo-router";
 
-const API_URL = "http://192.168.45.86:3000";
+const API_URL = process.env.EXPO_PUBLIC_API_URL || "http://localhost:3000";
 
 const TAGS = ["헬스", "런닝", "요가", "필라테스", "자전거", "수영"];
 
