@@ -1,0 +1,12 @@
+node_modules/
+uploads/
+.env
+.expo/
+.idea/
+.DS_Store
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite*
+*.db
